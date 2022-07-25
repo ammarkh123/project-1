@@ -396,12 +396,14 @@ body{
     left: 0;
     background-color: var(--main-color);
 }
-@media (max-width: 500px){
+@media (max-width: 560px){
     .about .about-content .pic .backl::before{
         display: none;
     }
+}
+@media (max-width: 415px){
     .about .about-content .pic .backl{
-        right: -30px;
+        display: none;
     }
 }
 .about .about-content .paragraph p{
