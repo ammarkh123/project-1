@@ -30,7 +30,7 @@ body{
     text-align: center;
     font-size: 120px;
     color: #f0eeee;
-    margin: 0 0 -40px 0;
+    margin-bottom: -40px;
     padding: 0 15px;
 }
 .depar-title+ p{
@@ -40,7 +40,8 @@ body{
 }
 @media (max-width: 767px){
     .depar-title{
-        font-size: 70px;
+        font-size: 65px;
+        margin-bottom: -18px;
     }
 }
 .pd-y{
@@ -345,7 +346,6 @@ body{
     font-size: 18px;
     color: #777;
 }
-
 /* end portfolio */
 /* start about */
 .about{
@@ -373,7 +373,7 @@ body{
     bottom: -20px;
     left: -40px;
     height: calc(100% + 80px);
-    width: 100px;
+    width: 90px;
     background-color: #c5c5c5;
     z-index: -1;
 }
@@ -383,7 +383,7 @@ body{
     bottom: 20px;
     right: -40px;
     height: calc(100%);
-    width: 100px;
+    width: 90px;
     background-color: var(--main-color);
     z-index: -1;
 }
@@ -399,6 +399,9 @@ body{
 @media (max-width: 500px){
     .about .about-content .pic .backl::before{
         display: none;
+    }
+    .about .about-content .pic .backl{
+        right: -30px;
     }
 }
 .about .about-content .paragraph p{
